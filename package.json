@@ -16,7 +16,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@mdx-js/react": "^3.1.1",
+    "@mdx-js/react": "^2.0.0",
+    "@tailwindcss/postcss": "^4.1.18",
     "autoprefixer": "^10.4.24",
     "gatsby": "^5.14.6",
     "gatsby-plugin-image": "^3.16.0",
@@ -29,12 +30,14 @@
     "postcss": "^8.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-masonry": "^2.7.1",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
+    "@types/react-responsive-masonry": "^2.7.0",
     "typescript": "^5.3.3"
   }
 }
